@@ -6,7 +6,6 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import numpy as mp
-import seaborn as sns
 import pandas as pd
 import pydeck as pdk
 
