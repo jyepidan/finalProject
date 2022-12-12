@@ -13,7 +13,7 @@ import pydeck as pdk
 st.set_page_config(layout="wide")
 
 df = pd.read_csv(
-    '/Users/joasyepidan/Documents/Fall2022/VisualAnalytics-5122/5122_sl/data/police_shooting.csv')
+    'police_shooting.csv')
 # clean data
 df = df.dropna()
 df['date'] = pd.to_datetime(df['date'])
