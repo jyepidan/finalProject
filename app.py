@@ -55,9 +55,6 @@ def main_page():
         chart1 = df.describe()
         corr = df.corr()
         st.write(chart1)
-        heatmap = sns.heatmap(corr, vmin=-1, vmax=1, annot=True, cmap='BrBG')
-        heatmap.set_title('Correlation Heatmap', fontdict={
-                          'fontsize': 12}, pad=12)
 
 
 def charts():
